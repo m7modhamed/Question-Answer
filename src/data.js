@@ -1,0 +1,1 @@
+ export const quastion=localStorage.getItem('items') ? [...JSON.parse(localStorage.getItem('items'))]:[];
